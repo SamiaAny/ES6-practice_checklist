@@ -16,4 +16,7 @@ const school = {
     teacher : 300
 };
 
-console.log(school?.student?.faculty?.dept??"not valid");
+// console.log(school?.student?.faculty?.dept??"not valid");
+console.log(school?.student?.faculty?.dept);
+
+/**ekhaen ?. dia check kora hoi schooler vitor student er vitor faculty er vitor dept ache kina jodi na thake tahole undefine dekhabe jodi?. na dei tahole puro program e crash korbe error dekhabe .thats why we can use it to run every code and if there any prblem it will show undefine */

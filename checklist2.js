@@ -19,7 +19,7 @@ console.log(multiplyNumbers(1,2,3));
 const doubleResult = (x,y) => {
     x = x+2;
     y = y+2;
-    z = x * y;//problem
+    z = x * y;//problem  eta run korse karon js njei ekta variable declare kore nise ekhane
     return z;
 }
 
